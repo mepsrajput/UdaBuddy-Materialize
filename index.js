@@ -14,6 +14,14 @@ app.get('/', function(req, res, next) {
 	res.render('index', { title: 'PSRajput' });
 });
 
+app.get('/dashboard', function(req, res) {
+	res.render('partials/dashboard');
+});
+
+app.get('/contactus', function(req, res) {
+	res.render('contactus');
+});
+
 app.listen(app.get('port'), function(){
 	console.log('App is running on port', app.get('port'));
 });
