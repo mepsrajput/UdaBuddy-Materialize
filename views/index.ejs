@@ -1,0 +1,49 @@
+<% include partials/header.ejs %>
+
+<body class="light-blue lighten-5">
+
+	<header>
+		<nav class="light-blue lighten-1 navStyle" role="navigation">
+			<div class="nav-wrapper container">
+				<a id="logo-container" href="#" class="brand-logo"></a>
+				<ul class="right hide-on-med-and-down">
+				  <li>
+					<a href="#">Sign Up</a>
+				  </li>
+				</ul>
+				<ul id="nav-mobile" class="sidenav">
+				  <li>
+					<a href="#">Sign Up</a>
+				  </li>
+				</ul>
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="section leftSide">
+			<div class="mainContainer">
+				<div class="row ">
+					<div class="col m12 s12 center">
+						<h1>UdaBuddy</h1><br>
+						<h4>A Platform for Udacity Students and Alumni</h4><br>
+						<h5>Create, Share & Learn. Together !</h5>
+					 </div>
+
+				</div>
+			</div>
+		</div>
+		<div class="section rightSide">
+			<div class=" col s12 m6 center"><br><br>
+				<div id="rightText1">See what’s developing right now</div><br><br>
+				<div id="rightText2">Join Udabuddy</div>
+				<div id="firebaseui-auth-container"></div>
+			</div>
+		</div>
+
+	</main>
+
+  <% include partials/footer.ejs %>
